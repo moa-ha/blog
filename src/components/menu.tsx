@@ -1,4 +1,4 @@
-import { Popover } from '@headlessui/react'
+import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
 import { useRouter } from 'next/router'
 
 interface Prop {
@@ -12,7 +12,7 @@ const Menu = ({ darkMode }: Prop) => {
     <Popover as="div" className="relative">
       {({ open }) => (
         <div className="mobile-menu">
-          <Popover.Button
+          <PopoverButton
             className={`menu-button ${darkMode ? 'dark' : ''}`}
             id="headlessui-popover-button"
           >
@@ -30,15 +30,15 @@ const Menu = ({ darkMode }: Prop) => {
                 strokeLinejoin="round"
               ></path>
             </svg>
-          </Popover.Button>
+          </PopoverButton>
 
-          <Popover.Panel className="menu-list">
+          <PopoverPanel className="menu-list">
             <ul className={`menu-items ${darkMode ? 'dark' : ''}`}>
               <li>About</li>
               <li>Posts</li>
               <li>Projects</li>
             </ul>
-          </Popover.Panel>
+          </PopoverPanel>
         </div>
       )}
     </Popover>
