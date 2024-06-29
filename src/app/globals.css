@@ -18,6 +18,7 @@
 
 body {
   max-width: 1000px;
+  height: 100vh;
   margin: 0 auto;
   padding: 0 20px;
   color: rgb(var(--foreground-rgb));
@@ -97,7 +98,7 @@ h2 {
   flex-direction: column;
   height: var(--header-height);
   margin-bottom: var(--header-mb);
-  width: 700px;
+  /* width: 700px; */
   margin: 0 auto;
 }
 
@@ -126,9 +127,9 @@ h2 {
 .home-button {
   position: absolute;
   top: 1.2rem;
-  left: 2rem;
-  padding: 0.125rem;
+  left: 0;
   font-size: 32px;
+  display: block;
 }
 
 .flex-container {
