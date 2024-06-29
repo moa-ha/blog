@@ -35,7 +35,7 @@ const Menu = ({ darkMode }: Prop) => {
             <ul className={`menu-items ${darkMode ? 'dark' : ''}`}>
               <li>About</li>
               <li>Posts</li>
-              <li>Projects</li>
+              <li>Websites</li>
             </ul>
           </PopoverPanel>
         </div>

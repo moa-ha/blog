@@ -36,21 +36,19 @@ const Nav = ({ darkMode }: Prop) => {
           <li>
             <Link
               className={`menu-link ${darkMode ? 'dark' : ''} ${
-                pathname === '/posts' ? 'active' : ''
-              }`}
-              href="/posts"
-            >
-              Posts
-            </Link>
-          </li>
-          <li>
-            <Link
-              className={`menu-link ${darkMode ? 'dark' : ''} ${
                 pathname === '/projects' ? 'active' : ''
               }`}
               href="/projects"
             >
               Projects
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={`menu-link ${darkMode ? 'dark' : ''}`}
+              href="/projects"
+            >
+              Websites
             </Link>
           </li>
         </ul>
