@@ -17,6 +17,8 @@ export default function About() {
 
   return (
     <div className="container">
+      <h1 className="title">Home | About</h1>
+
       <div className="profile-container">
         <Image
           src="/images/profile.jpeg"
