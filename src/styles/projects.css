@@ -1,12 +1,12 @@
 /* styles/projects.css */
-.item-group {
+.project-group {
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 20px;
 }
 
-.item {
+.project {
   display: flex;
   gap: 20px;
   border: 1px solid #ddd;
@@ -16,41 +16,34 @@
 }
 
 /* TODO: adjust size later */
-/* .item-image {
+/* .project-image {
   width: 100px;
   height: 100px;
   object-fit: cover;
   border-radius: 8px;
 } */
 
-.item-content {
+.project-content {
   display: flex;
   flex-direction: column;
+  font-size: 15px;
 }
 
-.item-header {
+.project-header {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.item-meta {
+.project-meta {
   display: flex;
   gap: 10px;
   font-size: 0.9rem;
-  color: #555;
 }
 
-.price {
-  font-weight: bold;
-}
-
-.stay {
-  color: #777;
-}
-
-.item-description {
+.project-description {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .wireframe {
