@@ -87,7 +87,9 @@ h2 {
 .container {
   padding: 0 20px;
   height: 100vh;
+  position: relative;
 }
+
 .dark {
   background-color: #1a202c;
   color: #ffffff;
@@ -306,14 +308,14 @@ h2 {
 
 .light-icon:hover {
   fill: #ccfbf1;
-  stroke: #14b8a6;
+  color: #14b8a6;
 }
 
 .dark-icon {
   height: 1.5rem;
   width: 1.5rem;
   fill: #374151;
-  stroke: #2dd4bf;
+  color: #2dd4bf;
   transition: stroke 0.3s;
 }
 
@@ -326,7 +328,7 @@ h2 {
 }
 
 .dark-icon:hover {
-  stroke: #6b7280;
+  color: #ffffff;
 }
 
 .dark-icon.dark:hover {
