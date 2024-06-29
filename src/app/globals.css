@@ -102,7 +102,6 @@ h2 {
   flex-direction: column;
   height: var(--header-height);
   margin-bottom: var(--header-mb);
-  margin: 0 auto;
 }
 
 /* @media (max-width: 700px) {
@@ -111,10 +110,7 @@ h2 {
   }
 } */
 
-.top-bar,
-.main-bar {
-  top: 0;
-  order: last;
+.top-bar {
   margin-bottom: -0.75rem;
   margin-top: 2rem;
   padding-top: 0.75rem;
@@ -124,7 +120,6 @@ h2 {
   position: relative;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .home-button {
@@ -133,6 +128,10 @@ h2 {
   left: 0;
   font-size: 32px;
   display: block;
+}
+
+.home-button:hover {
+  color: #14b8a6;
 }
 
 .flex-container {
