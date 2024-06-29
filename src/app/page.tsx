@@ -17,7 +17,7 @@ export default function About() {
 
   return (
     <div className="container">
-      <h1 className="title">Home | About</h1>
+      <h1 className="title">Home | About </h1>
 
       <div className="profile-container">
         <Image
@@ -30,8 +30,15 @@ export default function About() {
         />
       </div>
       <section>
-        <h2>내 이름</h2>
-        <p>blah blah</p>
+        <h1>Moa Ha</h1>
+        <p className="about-me">
+          I am a developer with experience in office work and customer service.
+          Realizing the increasing automation of many systems and the constant
+          evolution in this field, I chose to pursue a career in software
+          development. I believe that by actively engaging in the field
+          responsible for driving these changes, I can remain relevant and
+          continuously evolve throughout my career.
+        </p>
       </section>
       <section style={{ display: 'flex', alignItems: 'center' }}>
         <Link href="https://www.linkedin.com/in/moa-ha" passHref>

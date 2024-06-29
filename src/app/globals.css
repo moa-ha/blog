@@ -17,7 +17,6 @@
 }
 
 body {
-  max-width: 1000px;
   height: 100vh;
   margin: 0 auto;
   color: rgb(var(--foreground-rgb));
@@ -80,6 +79,12 @@ h2 {
   padding: 0 20px;
   height: 100vh;
   position: relative;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.about-me {
+  margin: 10px 0px;
 }
 
 .title {
