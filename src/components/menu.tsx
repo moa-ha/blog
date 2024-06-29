@@ -12,10 +12,7 @@ const Menu = ({ darkMode }: Prop) => {
     <Popover as="div" className="relative">
       {({ open }) => (
         <div className="mobile-menu">
-          <PopoverButton
-            className={`menu-button ${darkMode ? 'dark' : ''}`}
-            id="headlessui-popover-button"
-          >
+          <PopoverButton className={`menu-button ${darkMode ? 'dark' : ''}`}>
             Menu
             <svg
               viewBox="0 0 8 6"
@@ -40,7 +37,7 @@ const Menu = ({ darkMode }: Prop) => {
                 <Link href="/">About</Link>
               </li>
               <li className="menu-link">
-                <Link href="/posts">Posts</Link>
+                <Link href="/projects">Projects</Link>
               </li>
               <li className="menu-link">
                 <Link href="/website">Website</Link>

@@ -120,7 +120,6 @@ h2 {
 }
 
 .home-button {
-  color: black;
   position: absolute;
   top: 1.2rem;
   left: 0;
@@ -128,8 +127,12 @@ h2 {
   display: block;
 }
 
+.home-button.dark {
+  color: white;
+}
+
 .home-button:hover {
-  color: #14b8a6;
+  color: #5eead4;
 }
 
 .flex-container {
@@ -160,7 +163,7 @@ h2 {
   display: flex;
   align-items: center;
   border-radius: 50px 50px 50px 50px;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1rem;
   font-size: 0.875rem;
   font-weight: 500;
   color: #1f2937;
@@ -175,19 +178,15 @@ h2 {
   box-shadow: 0 10px 15px -3px rgba(255, 255, 255, 0.1);
 }
 
+.menu-button:hover {
+  stroke: #5eead4;
+  color: #5eead4;
+}
 .menu-icon {
   margin-left: 0.75rem;
   height: auto;
   width: 0.5rem;
   stroke: #6b7280;
-}
-
-.menu-icon:hover {
-  stroke: #374151;
-}
-
-.menu-icon.dark:hover {
-  stroke: #9ca3af;
 }
 
 .desktop-menu {
@@ -202,7 +201,6 @@ h2 {
 }
 
 .menu-link {
-  color: black;
   position: relative;
   display: block;
   padding: 0.5rem 0.75rem;
@@ -380,3 +378,5 @@ img.profile {
   padding: 0 10px 0 0;
   font-size: 22px;
 }
+
+/* project page */
