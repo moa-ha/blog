@@ -1,5 +1,7 @@
+'use client'
+
 import React from 'react'
-import { useRouter } from 'next/router'
+import { usePathname } from 'next/navigation'
 import Menu from './menu'
 import Link from 'next/link'
 
@@ -7,7 +9,7 @@ interface Prop {
   darkMode: boolean
 }
 const Nav = ({ darkMode }: Prop) => {
-  const router = useRouter()
+  const pathname = usePathname()
   return (
     <>
       <Menu darkMode={darkMode} />
@@ -23,7 +25,7 @@ const Nav = ({ darkMode }: Prop) => {
           <li>
             <Link
               className={`menu-link ${darkMode ? 'dark' : ''} ${
-                router.pathname === '/' ? 'active' : ''
+                pathname === '/' ? 'active' : ''
               }`}
               href="/"
             >
@@ -33,7 +35,7 @@ const Nav = ({ darkMode }: Prop) => {
           <li>
             <Link
               className={`menu-link ${darkMode ? 'dark' : ''} ${
-                router.pathname === '/posts' ? 'active' : ''
+                pathname === '/posts' ? 'active' : ''
               }`}
               href="/posts"
             >
@@ -43,7 +45,7 @@ const Nav = ({ darkMode }: Prop) => {
           <li>
             <Link
               className={`menu-link ${darkMode ? 'dark' : ''} ${
-                router.pathname === '/projects' ? 'active' : ''
+                pathname === '/projects' ? 'active' : ''
               }`}
               href="/projects"
             >
