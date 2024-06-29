@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/tabs.css'
+import Projects from './projects'
+import ProjectsC from './projectsC'
 
 const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState(0)
@@ -7,21 +9,11 @@ const ProjectTabs = () => {
   const panes = [
     {
       menuItem: 'Ongoing Projects',
-      content: (
-        <div>
-          <h2>Projects Tab 1</h2>
-          <p>Here is some content for Tab 1</p>
-        </div>
-      ),
+      content: <Projects />,
     },
     {
       menuItem: 'Completed Projects',
-      content: (
-        <div>
-          <h2>Projects Tab 2</h2>
-          <p>Here is some content for Tab 2</p>
-        </div>
-      ),
+      content: <ProjectsC />,
     },
   ]
 
@@ -38,16 +30,11 @@ const ProjectTabs = () => {
           </div>
         ))}
       </div>
-      <div className="tab-content">
-        {panes.map((pane, index) => (
-          <div
-            key={index}
-            className={`tab-content ${activeTab === index ? '' : 'hidden'}`}
-          >
-            {pane.content}
-          </div>
-        ))}
-      </div>
+      {panes.map((pane, index) => (
+        <div key={index} className={` ${activeTab === index ? '' : 'hidden'}`}>
+          {pane.content}
+        </div>
+      ))}
     </div>
   )
 }
