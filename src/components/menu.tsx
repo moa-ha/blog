@@ -1,6 +1,7 @@
 'use client'
 
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
+import Link from 'next/link'
 
 interface Prop {
   darkMode: boolean
@@ -35,9 +36,15 @@ const Menu = ({ darkMode }: Prop) => {
             className={`menu-list popover ${darkMode ? 'dark' : ''}`}
           >
             <ul className="menu-items">
-              <li className="menu-link">About</li>
-              <li className="menu-link">Posts</li>
-              <li className="menu-link">Websites</li>
+              <li className="menu-link">
+                <Link href="/">About</Link>
+              </li>
+              <li className="menu-link">
+                <Link href="/posts">Posts</Link>
+              </li>
+              <li className="menu-link">
+                <Link href="/website">Website</Link>
+              </li>
             </ul>
           </PopoverPanel>
         </div>
