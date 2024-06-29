@@ -120,6 +120,7 @@ h2 {
 }
 
 .home-button {
+  color: black;
   position: absolute;
   top: 1.2rem;
   left: 0;
@@ -201,6 +202,7 @@ h2 {
 }
 
 .menu-link {
+  color: black;
   position: relative;
   display: block;
   padding: 0.5rem 0.75rem;
