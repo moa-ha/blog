@@ -11,7 +11,7 @@ interface Prop {
   toggleDarkMode: MouseEventHandler<HTMLButtonElement>
 }
 const Header = ({ darkMode, toggleDarkMode }: Prop) => (
-  <header className={`header ${darkMode ? 'dark' : ''}`}>
+  <header className={`header container ${darkMode ? 'dark' : ''}`}>
     <div className="top-bar container-sm">
       <div></div>
       <div className="flex-container">

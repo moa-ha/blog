@@ -16,7 +16,7 @@ export default function About() {
   }, [])
 
   return (
-    <>
+    <div className="container">
       <div className="profile-container">
         <Image
           src="/images/profile.jpeg"
@@ -33,13 +33,13 @@ export default function About() {
       </section>
       <section style={{ display: 'flex', alignItems: 'center' }}>
         <Link href="https://www.linkedin.com/in/moa-ha" passHref>
-          <FontAwesomeIcon icon={faLinkedinIn} className="menu-link" />
+          <FontAwesomeIcon icon={faLinkedinIn} className="menu-link websites" />
         </Link>
 
         <Link href="https://github.com/moa-ha" passHref>
-          <FontAwesomeIcon icon={faGithub} className="menu-link" />
+          <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
         </Link>
       </section>
-    </>
+    </div>
   )
 }
