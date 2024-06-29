@@ -41,12 +41,20 @@ export default function About() {
         </p>
       </section>
       <section style={{ display: 'flex', alignItems: 'center' }}>
-        <Link href="https://www.linkedin.com/in/moa-ha" passHref>
+        <Link
+          href="https://www.linkedin.com/in/moa-ha"
+          target="_blank"
+          passHref
+        >
           <FontAwesomeIcon icon={faLinkedinIn} className="menu-link websites" />
         </Link>
 
         <Link href="https://github.com/moa-ha" passHref>
-          <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
+          <FontAwesomeIcon
+            icon={faGithub}
+            target="_blank"
+            className="menu-link websites"
+          />
         </Link>
       </section>
     </div>
