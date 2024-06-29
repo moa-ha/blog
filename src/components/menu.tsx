@@ -31,11 +31,13 @@ const Menu = ({ darkMode }: Prop) => {
             </svg>
           </PopoverButton>
 
-          <PopoverPanel className="menu-list">
-            <ul className={`menu-items ${darkMode ? 'dark' : ''}`}>
-              <li>About</li>
-              <li>Posts</li>
-              <li>Websites</li>
+          <PopoverPanel
+            className={`menu-list popover ${darkMode ? 'dark' : ''}`}
+          >
+            <ul className="menu-items">
+              <li className="menu-link">About</li>
+              <li className="menu-link">Posts</li>
+              <li className="menu-link">Websites</li>
             </ul>
           </PopoverPanel>
         </div>

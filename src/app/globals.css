@@ -203,23 +203,6 @@ h2 {
     display: block;
   }
 }
-.menu-list {
-  display: flex;
-  border-radius: 50px 50px 50px 50px;
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #1f2937;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  backdrop-filter: blur(5px);
-}
-
-.menu-list.dark {
-  background: rgba(31, 41, 55, 0.9);
-  color: #e5e7eb;
-}
 
 .menu-link {
   position: relative;
@@ -269,6 +252,45 @@ h2 {
     rgba(94, 234, 212, 0.4),
     rgba(94, 234, 212, 0)
   );
+}
+
+/* mobile menu */
+.menu-list {
+  display: flex;
+  border-radius: 50px 50px 50px 50px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #1f2937;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(5px);
+}
+
+.menu-list.dark {
+  background: rgba(31, 41, 55, 0.9);
+  color: #e5e7eb;
+}
+
+.popover {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  width: 350px;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.menu-items li {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-items li:last-child {
+  border-bottom: none;
 }
 
 .dark-mode-toggle {
@@ -341,29 +363,6 @@ h2 {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-
-.menu-items li {
-  padding: 1rem;
-  border-bottom: 1px solid #ccc;
-}
-
-.menu-items li:last-child {
-  border-bottom: none;
-}
-
-/* Dark mode 스타일링 */
-.menu-items.dark {
-  color: #ccc;
-  background-color: rgba(31, 41, 55, 0.9);
-}
-
-.menu-items.dark li {
-  border-color: #555;
-}
-
-.menu-items.dark li:hover {
-  color: #2dd4bf;
 }
 
 /* home page */
