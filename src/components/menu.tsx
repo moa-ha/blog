@@ -1,13 +1,12 @@
+'use client'
+
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/react'
-import { useRouter } from 'next/router'
 
 interface Prop {
   darkMode: boolean
 }
 
 const Menu = ({ darkMode }: Prop) => {
-  const router = useRouter()
-
   return (
     <Popover as="div" className="relative">
       {({ open }) => (
