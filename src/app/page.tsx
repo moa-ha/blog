@@ -14,9 +14,10 @@ export default function About() {
   useEffect(() => {
     document.title = 'Home | About' // 페이지가 로드될 때 <title>을 변경
   }, [])
+
   return (
     <>
-      <section>
+      <div className="profile-container">
         <Image
           src="/images/profile.jpeg"
           alt="profile"
@@ -25,7 +26,7 @@ export default function About() {
           sizes="100vw"
           className="profile"
         />
-      </section>
+      </div>
       <section>
         <h2>내 이름</h2>
         <p>blah blah</p>
