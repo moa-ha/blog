@@ -1,0 +1,60 @@
+/* styles/projects.css */
+.item-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* TODO: adjust size later */
+/* .item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+} */
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item-meta {
+  display: flex;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.stay {
+  color: #777;
+}
+
+.item-description {
+  margin-top: 10px;
+}
+
+.wireframe {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
