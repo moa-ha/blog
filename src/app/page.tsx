@@ -1,19 +1,21 @@
+'use client'
+
 import Image from 'next/image'
-import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import { useEffect } from 'react'
 
 config.autoAddCss = false // 필수: CSS 충돌 방지
 
 export default function About() {
+  useEffect(() => {
+    document.title = 'Home | About' // 페이지가 로드될 때 <title>을 변경
+  }, [])
   return (
     <>
-      <Head>
-        <title>Home | About</title>
-      </Head>
       <section>
         <Image
           src="/images/profile.jpeg"
