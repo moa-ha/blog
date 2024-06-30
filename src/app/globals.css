@@ -83,10 +83,6 @@ h2 {
   max-width: 700px;
 }
 
-.about-me {
-  margin: 10px 0px;
-}
-
 .title {
   margin-top: 20px;
   font-size: 25px;
@@ -374,8 +370,6 @@ img.profile {
 }
 
 .websites {
-  padding: 0 10px 0 0;
-  font-size: 22px;
+  padding: 0 15px 0 0;
+  font-size: 25px;
 }
-
-/* project page */
