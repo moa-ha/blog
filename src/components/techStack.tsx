@@ -6,9 +6,9 @@ const TechStack = () => {
       <FaHtml5 size="1.7em" title="HTML5" className="text-red-500" />
       <FaCss3Alt size="1.7em" title="CSS3" className="text-blue-500" />
       <FaJs size="1.7em" title="JavaScript" className="text-yellow-500" />
+      <SiTypescript size="1.7em" title="TypeScript" className="text-blue-600" />
       <FaReact size="1.7em" title="React" className="text-cyan-500" />
       <FaNodeJs size="1.7em" title="Node.js" className="text-green-500" />
-      <SiTypescript size="1.7em" title="TypeScript" className="text-blue-600" />
       <SiSqlite size="1.7em" title="SQLite3" className="text-blue-300" />
     </div>
   )
