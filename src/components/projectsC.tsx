@@ -11,7 +11,7 @@ const ProjectsC = () => (
   <div className="project-group">
     <div className="project">
       <Image
-        className="project-image"
+        className="wireframe"
         width={200}
         height={200}
         src="/images/tradie-tracker.gif"
@@ -62,7 +62,7 @@ const ProjectsC = () => (
     </div>
     <div className="project">
       <Image
-        className="project-image"
+        className="wireframe"
         width={200}
         height={200}
         src="/images/dreamfest.gif"
@@ -101,7 +101,7 @@ const ProjectsC = () => (
 
     <div className="project">
       <Image
-        className="project-image"
+        className="wireframe"
         width={200}
         height={200}
         src="/images/pupparazzi.gif"

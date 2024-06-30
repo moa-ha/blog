@@ -7,21 +7,13 @@
 }
 
 .project {
-  display: flex;
+  /* display: flex; */
   gap: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-/* TODO: adjust size later */
-/* .project-image {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 8px;
-} */
 
 .project-content {
   display: flex;
@@ -53,7 +45,8 @@
 }
 
 .wireframe {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 200px;
+  object-fit: cover;
   border-radius: 8px;
 }

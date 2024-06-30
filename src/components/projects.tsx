@@ -7,7 +7,7 @@ const Projects = () => (
   <div className="project-group">
     <div className="project">
       <Image
-        className="project-image"
+        className="wireframe"
         width={200}
         height={200}
         src="/images/carGP.png"
@@ -39,7 +39,7 @@ const Projects = () => (
 
     <div className="project">
       <Image
-        className="project-image"
+        className="wireframe"
         width={200}
         height={200}
         src="/images/LyricSync.png"
