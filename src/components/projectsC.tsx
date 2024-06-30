@@ -20,7 +20,7 @@ const ProjectsC = () => (
 
       <div className="project-content">
         <h3 className="project-header">
-          Tradie Tracker{' '}
+          Tradie Tracker
           <Link href="https://github.com/moa-ha" target="_blank" passHref>
             <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
           </Link>
@@ -71,7 +71,7 @@ const ProjectsC = () => (
 
       <div className="project-content">
         <h3 className="project-header">
-          Dreamfest{' '}
+          Dreamfest
           <Link href="https://github.com/moa-ha" target="_blank" passHref>
             <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
           </Link>
@@ -110,7 +110,7 @@ const ProjectsC = () => (
 
       <div className="project-content">
         <h3 className="project-header">
-          Pupparazzi{' '}
+          Pupparazzi
           <Link href="https://github.com/moa-ha" target="_blank" passHref>
             <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
           </Link>
