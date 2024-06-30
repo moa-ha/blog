@@ -16,7 +16,7 @@ const Projects = () => (
 
       <div className="project-content">
         <h3 className="project-header">Car-GP</h3>
-        <div className="project-meta">
+        <div className="project-meta flex flex-col md:flex-row gap-2">
           <span className="font-bold ">from May 2024 </span>
           <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
         </div>
@@ -48,7 +48,7 @@ const Projects = () => (
 
       <div className="project-content">
         <h3 className="project-header"> LyricSync</h3>
-        <div className="project-meta">
+        <div className="project-meta flex flex-col md:flex-row gap-2">
           <span className="font-bold ">from May 2024 </span>
           <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
         </div>
