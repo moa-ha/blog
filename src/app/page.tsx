@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { useEffect } from 'react'
+import TechStack from '@/components/techStack'
 
 config.autoAddCss = false // 필수: CSS 충돌 방지
 
@@ -31,14 +32,17 @@ export default function About() {
       </div>
       <section>
         <h1>Moa Ha</h1>
-        <p className="about-me">
-          I am a developer with experience in office work and customer service.
-          Realizing the increasing automation of many systems and the constant
-          evolution in this field, I chose to pursue a career in software
-          development. I believe that by actively engaging in the field
-          responsible for driving these changes, I can remain relevant and
-          continuously evolve throughout my career.
-        </p>
+        <div className="about-me">
+          <p>
+            I am a developer with experience in office work and customer
+            service. Realizing the increasing automation of many systems and the
+            constant evolution in this field, I chose to pursue a career in
+            software development. I believe that by actively engaging in the
+            field responsible for driving these changes, I can remain relevant
+            and continuously evolve throughout my career.
+          </p>
+          <TechStack />
+        </div>
       </section>
       <section style={{ display: 'flex', alignItems: 'center' }}>
         <Link
