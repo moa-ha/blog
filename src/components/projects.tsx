@@ -71,7 +71,7 @@ const Projects = () => (
           <h3 className="project-header">
             LyricSync
             <Link
-              href="https://github.com/moa-ha/car-gp"
+              href="https://github.com/haruka-ogino/LyricSync"
               target="_blank"
               passHref
             >
