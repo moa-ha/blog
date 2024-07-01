@@ -14,7 +14,7 @@ const Projects = () => (
           className="wireframe"
           width={200}
           height={200}
-          src="/images/carGP.png"
+          src="/images/carGp.png"
           alt="car-gp"
         />
         <div className="md:ml-2">
