@@ -17,7 +17,7 @@ const Projects = () => (
           src="/images/carGP.png"
           alt="car-gp"
         />
-        <div className="ml-2">
+        <div className="md:ml-2">
           <h3 className="project-header">
             Car-GP
             <Link
@@ -67,7 +67,7 @@ const Projects = () => (
           src="/images/LyricSync.png"
           alt="LyricSync"
         />
-        <div className="ml-2">
+        <div className="md:ml-2">
           <h3 className="project-header">
             LyricSync
             <Link

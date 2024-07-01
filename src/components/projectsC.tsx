@@ -18,7 +18,7 @@ const ProjectsC = () => (
           src="/images/tradie-tracker.gif"
           alt="tradie-tracker"
         />
-        <div className="ml-2">
+        <div className="md:ml-2">
           <h3 className="project-header">
             Tradie Tracker
             <Link href="https://github.com/moa-ha" target="_blank" passHref>
@@ -65,7 +65,7 @@ const ProjectsC = () => (
           src="/images/dreamfest.gif"
           alt="dreamfest"
         />
-        <div className="ml-2">
+        <div className="md:ml-2">
           <h3 className="project-header">
             Dreamfest
             <Link href="https://github.com/moa-ha" target="_blank" passHref>
@@ -104,7 +104,7 @@ const ProjectsC = () => (
           src="/images/pupparazzi.gif"
           alt="pupparazzi"
         />
-        <div className="ml-2">
+        <div className="md:ml-2">
           <h3 className="project-header">
             Pupparazzi
             <Link href="https://github.com/moa-ha" target="_blank" passHref>
