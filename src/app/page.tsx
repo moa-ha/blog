@@ -50,14 +50,14 @@ export default function About() {
           target="_blank"
           passHref
         >
-          <FontAwesomeIcon icon={faLinkedinIn} className="menu-link websites" />
+          <FontAwesomeIcon icon={faLinkedinIn} className="menu-link text-xl" />
         </Link>
 
         <Link href="https://github.com/moa-ha" passHref>
           <FontAwesomeIcon
             icon={faGithub}
             target="_blank"
-            className="menu-link websites"
+            className="menu-link text-xl"
           />
         </Link>
       </section>
