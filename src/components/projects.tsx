@@ -42,7 +42,6 @@ const Projects = () => (
               maintenance schedules based on individual driving distances,
               sending alerts accordingly.
             </p>
-            <p className="italic">(Express.js / JSON APIs)</p>
           </div>
         </div>
       </div>
@@ -64,13 +63,13 @@ const Projects = () => (
         <Image
           className="wireframe"
           width={200}
-          height={150}
+          height={200}
           src="/images/LyricSync.png"
           alt="LyricSync"
         />
         <div className="ml-2">
           <h3 className="project-header">
-            Car-GP
+            LyricSync
             <Link
               href="https://github.com/moa-ha/car-gp"
               target="_blank"
@@ -87,6 +86,13 @@ const Projects = () => (
           <div className="mt-2 mb-2">
             <p className="text-base">
               App for lyrics collection in translated language.
+            </p>
+            <p>
+              A full-stack application which allows its user to save the lyrics
+              to their favourite songs. Collections can be created where a set
+              of songs can be compiled and saved. Additionally, the translation
+              to foreign songs can either be executed through the translation
+              feature in the app, or inputted manually.
             </p>
           </div>
         </div>

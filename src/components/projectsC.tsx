@@ -14,7 +14,7 @@ const ProjectsC = () => (
         <Image
           className="wireframe"
           width={200}
-          height={150}
+          height={200}
           src="/images/tradie-tracker.gif"
           alt="tradie-tracker"
         />
