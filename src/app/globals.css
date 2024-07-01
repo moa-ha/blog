@@ -17,7 +17,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   margin: 0 auto;
   color: rgb(var(--foreground-rgb));
   font-family: 'Inter var', system-ui, -apple-system, BlinkMacSystemFont,
@@ -29,6 +29,11 @@ body {
   font-variation-settings: 'wght' 450;
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
+}
+
+body.dark-mode {
+  background-color: #1a202c;
+  color: #fff;
 }
 
 @layer utilities {
@@ -76,8 +81,8 @@ h2 {
 }
 
 .container {
+  height: 100%;
   padding: 0 20px;
-  height: 100vh;
   position: relative;
   margin: 0 auto;
   max-width: 700px;
@@ -86,11 +91,6 @@ h2 {
 .title {
   margin-top: 20px;
   font-size: 25px;
-}
-
-.dark {
-  background-color: #1a202c;
-  color: #ffffff;
 }
 
 .header {
