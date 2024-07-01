@@ -17,7 +17,7 @@ config.autoAddCss = false // 필수: CSS 충돌 방지
 
 export default function About() {
   useEffect(() => {
-    document.title = 'About' // 페이지가 로드될 때 <title>을 변경
+    document.title = 'About'
   }, [])
 
   return (
