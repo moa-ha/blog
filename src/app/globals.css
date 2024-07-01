@@ -96,8 +96,6 @@ h2 {
 .header {
   position: relative;
   z-index: 50;
-  display: flex;
-  flex-direction: column;
   height: var(--header-height);
   margin-bottom: var(--header-mb);
 }
