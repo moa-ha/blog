@@ -1,26 +1,23 @@
 'use client'
 
-import { useState, useEffect, ReactNode, MouseEventHandler } from 'react'
-import Header from '@/components/header'
+import { ReactNode, useEffect, useState } from 'react'
+import Header from './header'
 
 interface DarkModeProviderProps {
   children: ReactNode
 }
-
 export const DarkModeProvider = ({ children }: DarkModeProviderProps) => {
-  const [isDarkMode, setIsDarkMode] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(
+    () => localStorage.getItem('darkMode') === 'true'
+  )
 
   useEffect(() => {
-    const savedDarkMode = localStorage.getItem('darkMode')
-    if (savedDarkMode === 'true') {
-      setIsDarkMode(true)
-    }
-  }, [])
+    document.body.classList.toggle('dark-mode', isDarkMode)
+    localStorage.setItem('darkMode', isDarkMode.toString())
+  }, [isDarkMode])
 
-  const toggleDarkMode: MouseEventHandler<HTMLButtonElement> = () => {
-    const newDarkMode = !isDarkMode
-    setIsDarkMode(newDarkMode)
-    localStorage.setItem('darkMode', newDarkMode.toString())
+  const toggleDarkMode = () => {
+    setIsDarkMode((prevMode) => !prevMode)
   }
 
   return (
