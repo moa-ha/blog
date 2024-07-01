@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faFile } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -44,6 +45,7 @@ export default function About() {
           <TechStack />
         </div>
       </section>
+
       <section style={{ display: 'flex', alignItems: 'center' }}>
         <Link
           href="https://www.linkedin.com/in/moa-ha"
@@ -56,6 +58,17 @@ export default function About() {
         <Link href="https://github.com/moa-ha" passHref>
           <FontAwesomeIcon
             icon={faGithub}
+            target="_blank"
+            className="menu-link text-xl"
+          />
+        </Link>
+
+        <Link
+          href="https://drive.google.com/file/d/1EHgxmm8NYFZ08QedDBtDpMICmZxB-kCy/view"
+          passHref
+        >
+          <FontAwesomeIcon
+            icon={faFile}
             target="_blank"
             className="menu-link text-xl"
           />
