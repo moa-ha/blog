@@ -3,7 +3,11 @@
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faFileLines } from '@fortawesome/free-solid-svg-icons'
+import {
+  faFileLines,
+  faListCheck,
+  faEnvelope,
+} from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -12,6 +16,7 @@ import TechStack from '@/components/techStack'
 import { Divider } from '@nextui-org/divider'
 import Tippy from '@tippyjs/react'
 import 'tippy.js/dist/tippy.css'
+import Email from './email'
 
 config.autoAddCss = false // 필수: CSS 충돌 방지
 
@@ -49,17 +54,24 @@ export default function About() {
       </section>
 
       <section style={{ display: 'flex', alignItems: 'center' }}>
-        <Link
-          href="https://www.linkedin.com/in/moa-ha"
-          target="_blank"
-          passHref
-        >
-          <FontAwesomeIcon icon={faLinkedinIn} className="menu-link text-xl" />
-        </Link>
+        <Tippy content={<span>Check My Github</span>}>
+          <Link href="https://github.com/moa-ha" target="_blank" passHref>
+            <FontAwesomeIcon icon={faGithub} className="menu-link text-xl" />
+          </Link>
+        </Tippy>
 
-        <Link href="https://github.com/moa-ha" target="_blank" passHref>
-          <FontAwesomeIcon icon={faGithub} className="menu-link text-xl" />
-        </Link>
+        <Tippy content={<span>Check My LinkedIn</span>}>
+          <Link
+            href="https://www.linkedin.com/in/moa-ha"
+            target="_blank"
+            passHref
+          >
+            <FontAwesomeIcon
+              icon={faLinkedinIn}
+              className="menu-link text-xl"
+            />
+          </Link>
+        </Tippy>
 
         <Tippy content={<span>Check My CV</span>}>
           <Link
@@ -70,6 +82,13 @@ export default function About() {
             <FontAwesomeIcon icon={faFileLines} className="menu-link text-xl" />
           </Link>
         </Tippy>
+
+        <Tippy content={<span>Check My Projects</span>}>
+          <Link href="/projects" passHref>
+            <FontAwesomeIcon icon={faListCheck} className="menu-link text-xl" />
+          </Link>
+        </Tippy>
+        <Email />
       </section>
       <Divider orientation="horizontal" />
     </div>
