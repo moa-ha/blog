@@ -21,10 +21,18 @@ const ProjectsC = () => (
         <div className="md:ml-2">
           <h3 className="project-header">
             Tradie Tracker
-            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+            <Link
+              href="https://github.com/moa-ha/Tradie-Tracker"
+              target="_blank"
+              passHref
+            >
               <FontAwesomeIcon icon={faGithub} className="links" />
             </Link>
-            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+            <Link
+              href="https://tradie-tracker.pushed.nz/"
+              target="_blank"
+              passHref
+            >
               <FontAwesomeIcon icon={faCirclePlay} className="links" />
             </Link>
           </h3>
@@ -68,7 +76,11 @@ const ProjectsC = () => (
         <div className="md:ml-2">
           <h3 className="project-header">
             Dreamfest
-            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+            <Link
+              href="https://github.com/moa-ha/dreamfest"
+              target="_blank"
+              passHref
+            >
               <FontAwesomeIcon icon={faGithub} className="links" />
             </Link>
           </h3>
@@ -107,7 +119,11 @@ const ProjectsC = () => (
         <div className="md:ml-2">
           <h3 className="project-header">
             Pupparazzi
-            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+            <Link
+              href="https://github.com/moa-ha/pupparazzi"
+              target="_blank"
+              passHref
+            >
               <FontAwesomeIcon icon={faGithub} className="links" />
             </Link>
           </h3>
