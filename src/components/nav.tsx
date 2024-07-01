@@ -38,9 +38,10 @@ const Nav = ({ darkMode }: Prop) => {
           <li>
             <Link
               className={`menu-link ${darkMode ? 'dark' : ''}`}
-              href="/projects"
+              href="https://drive.google.com/file/d/1EHgxmm8NYFZ08QedDBtDpMICmZxB-kCy/view"
+              target="_blank"
             >
-              Websites
+              CV
             </Link>
           </li>
         </ul>

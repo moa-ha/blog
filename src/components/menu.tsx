@@ -40,7 +40,12 @@ const Menu = ({ darkMode }: Prop) => {
                 <Link href="/projects">Projects</Link>
               </li>
               <li className="menu-link">
-                <Link href="/website">Website</Link>
+                <Link
+                  href="https://drive.google.com/file/d/1EHgxmm8NYFZ08QedDBtDpMICmZxB-kCy/view"
+                  target="_blank"
+                >
+                  CV
+                </Link>
               </li>
             </ul>
           </PopoverPanel>
