@@ -2,30 +2,52 @@
 import Image from 'next/image'
 import React from 'react'
 import '@/styles/projects.css'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Link from 'next/link'
 
 const Projects = () => (
   <div className="project-group">
-    <div className="project">
-      <Image
-        className="wireframe"
-        width={200}
-        height={200}
-        src="/images/carGP.png"
-        alt="car-gp"
-      />
-
+    <div className="project text-sm">
       <div className="project-content">
-        <h3 className="project-header">Car-GP</h3>
-        <div className="project-meta flex flex-col md:flex-row gap-2">
-          <span className="font-bold ">from May 2024 </span>
-          <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
+        <Image
+          className="wireframe"
+          width={200}
+          height={200}
+          src="/images/carGP.png"
+          alt="car-gp"
+        />
+        <div className="ml-2">
+          <h3 className="project-header">
+            Car-GP
+            <Link
+              href="https://github.com/moa-ha/car-gp"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+          </h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">from May 2024 </span>
+            <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
+          </div>
+
+          <div className="mt-2 mb-2">
+            <p className="text-base">
+              The first page to check for your car's maintenance!
+            </p>
+            <p>
+              An app that tracks car maintenance status and calculates upcoming
+              maintenance schedules based on individual driving distances,
+              sending alerts accordingly.
+            </p>
+            <p className="italic">(Express.js / JSON APIs)</p>
+          </div>
         </div>
-        <div className="project-description">
-          An app that tracks car maintenance status and calculates upcoming
-          maintenance schedules based on individual driving distances, sending
-          alerts accordingly.
-        </div>
-        <span className="underline">What I'm Learning ✏️ </span>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">What I'm Learning ✏️ </span>
         <div>
           ✔️ Integrated Auth0 and JWT for authentication, expanding my
           understanding of secure user authentication.<br></br>
@@ -37,25 +59,40 @@ const Projects = () => (
       </div>
     </div>
 
-    <div className="project">
-      <Image
-        className="wireframe"
-        width={200}
-        height={200}
-        src="/images/LyricSync.png"
-        alt="LyricSync"
-      />
-
+    <div className="project text-sm">
       <div className="project-content">
-        <h3 className="project-header"> LyricSync</h3>
-        <div className="project-meta flex flex-col md:flex-row gap-2">
-          <span className="font-bold ">from May 2024 </span>
-          <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
+        <Image
+          className="wireframe"
+          width={200}
+          height={150}
+          src="/images/LyricSync.png"
+          alt="LyricSync"
+        />
+        <div className="ml-2">
+          <h3 className="project-header">
+            Car-GP
+            <Link
+              href="https://github.com/moa-ha/car-gp"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+          </h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">from May 2024 </span>
+            <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
+          </div>
+
+          <div className="mt-2 mb-2">
+            <p className="text-base">
+              App for lyrics collection in translated language.
+            </p>
+          </div>
         </div>
-        <div className="project-description">
-          App for lyrics collection in translated language.
-        </div>
-        <span className="underline">What I'm Learning ✏️ </span>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">What I'm Learning ✏️ </span>
         <div>
           ✔️ Collaborating weekly with a teammate to develop a full-stack app,
           gaining deeper familiarity with previously used tools.<br></br>

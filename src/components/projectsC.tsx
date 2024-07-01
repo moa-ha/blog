@@ -9,47 +9,42 @@ import Link from 'next/link'
 
 const ProjectsC = () => (
   <div className="project-group">
-    <div className="project">
-      <Image
-        className="wireframe"
-        width={200}
-        height={200}
-        src="/images/tradie-tracker.gif"
-        alt="tradie-tracker"
-      />
-
+    <div className="project text-sm">
       <div className="project-content">
-        <h3 className="project-header">
-          Tradie Tracker
-          <Link href="https://github.com/moa-ha" target="_blank" passHref>
-            <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
-          </Link>
-          <Link href="https://github.com/moa-ha" target="_blank" passHref>
-            <FontAwesomeIcon
-              icon={faCirclePlay}
-              className="menu-link websites"
-            />
-          </Link>
-        </h3>
-        <div className="project-meta">
-          <span className="font-bold ">
-            09 Apr ~ 17 Apr 2024 (group), 21 Apr ~ 10 May 2024 (solo)
-          </span>
-        </div>
-        <div className="project-description">
-          Efficient Work Scheduling App
-          <div>
-            This project is from group project from Dev Academy, and I remade
-            from the scratch to consolidate the concepts and make clear code.
-            The idea was to make a scheduling app using all the tools including
-            front & backend skills we've learnt throughout the bootcamp.
+        <Image
+          className="wireframe"
+          width={200}
+          height={150}
+          src="/images/tradie-tracker.gif"
+          alt="tradie-tracker"
+        />
+        <div className="ml-2">
+          <h3 className="project-header">
+            Tradie Tracker
+            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+              <FontAwesomeIcon icon={faCirclePlay} className="links" />
+            </Link>
+          </h3>
+          <p>09 Apr ~ 17 Apr 2024 (group), 21 Apr ~ 10 May 2024 (solo)</p>
+          <div className="mt-2 mb-2">
+            <p className="text-base">Efficient Work Scheduling App</p>
+            <p>
+              This project is from group project from Dev Academy, and I remade
+              from the scratch to consolidate the flow of the whole project and
+              make clear code.
+            </p>
+            <p className="italic">
+              (React / TypeScript / CSS / Restful APIs / Node.js / Express.js /
+              SQLite3 / Knex)
+            </p>
           </div>
-          <div className="italic">
-            (React / TypeScript / CSS / Restful APIs / Node.js / Express.js /
-            SQLite3 / Knex)
-          </div>
         </div>
-        <span className="underline">What I Learned ✏️</span>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">What I Learned ✏️</span>
         <div>
           ✔️ Developed a full-stack application from scratch, enhancing my
           understanding of the entire development process.<br></br>
@@ -60,37 +55,38 @@ const ProjectsC = () => (
         </div>
       </div>
     </div>
-    <div className="project">
-      <Image
-        className="wireframe"
-        width={200}
-        height={200}
-        src="/images/dreamfest.gif"
-        alt="dreamfest"
-      />
 
+    <div className="project text-sm">
       <div className="project-content">
-        <h3 className="project-header">
-          Dreamfest
-          <Link href="https://github.com/moa-ha" target="_blank" passHref>
-            <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
-          </Link>
-        </h3>
-
-        <div className="project-meta">
-          <span className="font-bold ">20 Mar ~ 24 Mar 2024</span>
-        </div>
-        <div className="project-description">
-          Music Festival Dashboard App
-          <div>
-            Dreamfest is a music festival schedule managing app. This was my
-            first app using Knex & SQL Database.
+        <Image
+          className="wireframe"
+          width={200}
+          height={200}
+          src="/images/dreamfest.gif"
+          alt="dreamfest"
+        />
+        <div className="ml-2">
+          <h3 className="project-header">
+            Dreamfest
+            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+          </h3>
+          <p>20 Mar ~ 24 Mar 2024</p>
+          <div className="mt-2 mb-2">
+            <p className="text-base"> Music Festival Dashboard App</p>
+            <p>
+              Dreamfest is a music festival schedule managing app. This was my
+              first app using Knex & SQL Database.
+            </p>
+            <p className="italic">
+              (Express.js / Restful APIs / SQLite3 / Knex)
+            </p>
           </div>
-          <div className="italic">
-            (Express.js / Restful APIs / SQLite3 / Knex)
-          </div>
         </div>
-        <span className="underline">What I Learned ✏️</span>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">What I Learned ✏️</span>
         <div>
           ✔️ Acquired practical experience integrating SQLite as a database for
           handling CRUD operations.<br></br>
@@ -99,34 +95,35 @@ const ProjectsC = () => (
       </div>
     </div>
 
-    <div className="project">
-      <Image
-        className="wireframe"
-        width={200}
-        height={200}
-        src="/images/pupparazzi.gif"
-        alt="pupparazzi"
-      />
-
+    <div className="project text-sm">
       <div className="project-content">
-        <h3 className="project-header">
-          Pupparazzi
-          <Link href="https://github.com/moa-ha" target="_blank" passHref>
-            <FontAwesomeIcon icon={faGithub} className="menu-link websites" />
-          </Link>
-        </h3>
-        <div className="project-meta">
-          <span className="font-bold ">12 Mar ~ 01 Apr 2024</span>
-        </div>
-        <div className="project-description">
-          Pet Profile Managing App
-          <div>
-            Pupparazz is a pet diary to manage and edit profiles of dogs. This
-            was my first app using Express & JSON API's.
+        <Image
+          className="wireframe"
+          width={200}
+          height={200}
+          src="/images/pupparazzi.gif"
+          alt="pupparazzi"
+        />
+        <div className="ml-2">
+          <h3 className="project-header">
+            Pupparazzi
+            <Link href="https://github.com/moa-ha" target="_blank" passHref>
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+          </h3>
+          <p>12 Mar ~ 01 Apr 2024</p>
+          <div className="mt-2 mb-2">
+            <p className="text-base">Pet Profile Managing App</p>
+            <p>
+              Pupparazz is a pet diary to manage and edit profiles of dogs. This
+              was my first app using Express & JSON API's.
+            </p>
+            <p className="italic">(Express.js / JSON APIs)</p>
           </div>
-          <div className="italic">(Express.js / JSON APIs)</div>
         </div>
-        <span className="underline">What I Learned ✏️</span>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">What I Learned ✏️</span>
         <div>
           ✔️ Gained hands-on experience with CRUD operations using JSON and the
           file system.<br></br>
