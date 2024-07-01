@@ -3,13 +3,15 @@
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import { faFile } from '@fortawesome/free-solid-svg-icons'
+import { faFileLines } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { useEffect } from 'react'
 import TechStack from '@/components/techStack'
 import { Divider } from '@nextui-org/divider'
+import Tippy from '@tippyjs/react'
+import 'tippy.js/dist/tippy.css'
 
 config.autoAddCss = false // 필수: CSS 충돌 방지
 
@@ -55,24 +57,19 @@ export default function About() {
           <FontAwesomeIcon icon={faLinkedinIn} className="menu-link text-xl" />
         </Link>
 
-        <Link href="https://github.com/moa-ha" passHref>
-          <FontAwesomeIcon
-            icon={faGithub}
-            target="_blank"
-            className="menu-link text-xl"
-          />
+        <Link href="https://github.com/moa-ha" target="_blank" passHref>
+          <FontAwesomeIcon icon={faGithub} className="menu-link text-xl" />
         </Link>
 
-        <Link
-          href="https://drive.google.com/file/d/1EHgxmm8NYFZ08QedDBtDpMICmZxB-kCy/view"
-          passHref
-        >
-          <FontAwesomeIcon
-            icon={faFile}
+        <Tippy content={<span>Check My CV</span>}>
+          <Link
+            href="https://drive.google.com/file/d/1EHgxmm8NYFZ08QedDBtDpMICmZxB-kCy/view"
             target="_blank"
-            className="menu-link text-xl"
-          />
-        </Link>
+            passHref
+          >
+            <FontAwesomeIcon icon={faFileLines} className="menu-link text-xl" />
+          </Link>
+        </Tippy>
       </section>
       <Divider orientation="horizontal" />
     </div>
