@@ -325,7 +325,6 @@ h2 {
   width: 1.5rem;
   fill: #374151;
   color: #2dd4bf;
-  transition: stroke 0.3s;
 }
 
 .dark-icon.hidden {
@@ -338,15 +337,6 @@ h2 {
 
 .dark-icon:hover {
   color: #ffffff;
-}
-
-.dark-icon.dark:hover {
-  stroke: #2dd4bf;
-}
-
-.dark-icon.not-dark {
-  fill: rgba(20, 184, 166, 0.1);
-  stroke: #14b8a6;
 }
 
 .menu-items {
@@ -367,9 +357,4 @@ img.profile {
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
-}
-
-.websites {
-  padding: 0 15px 0 0;
-  font-size: 25px;
 }
