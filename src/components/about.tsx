@@ -8,6 +8,7 @@ import TechStack from '@/components/techStack'
 import { Divider } from '@nextui-org/divider'
 import 'tippy.js/dist/tippy.css'
 import Links from './links'
+import BlogStack from './blogStack'
 
 config.autoAddCss = false // 필수: CSS 충돌 방지
 
@@ -46,6 +47,7 @@ export default function About() {
 
       <Links />
       <Divider orientation="horizontal" />
+      <BlogStack />
     </div>
   )
 }
