@@ -51,11 +51,12 @@ const ProjectsE = () => (
           </div>
         </div>
       </div>
-
+    </div>
+    <div className="project text-sm">
       <div className="project-content">
         <Image
           className="wireframe"
-          width={200}
+          width={180}
           height={200}
           src="/images/CtrlF.gif"
           alt="Ctrl + F"
