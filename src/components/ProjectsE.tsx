@@ -4,9 +4,10 @@ import React from 'react'
 import '@/styles/projects.css'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCirclePlay } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 
-const ProjectsH = () => (
+const ProjectsE = () => (
   <div className="project-group">
     <div className="project text-sm">
       <div className="project-content">
@@ -19,18 +20,24 @@ const ProjectsH = () => (
         />
         <div className="md:ml-2">
           <h3 className="project-header">
-            Car-GP
+            Realistic Notes
             <Link
-              href="https://github.com/moa-ha/car-gp"
+              href="https://github.com/phm-terrible-ideas-2024/repo"
               target="_blank"
               passHref
             >
               <FontAwesomeIcon icon={faGithub} className="links" />
             </Link>
+            <Link
+              href="https://terrible-ideas-2024.vercel.app/"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faCirclePlay} className="links" />
+            </Link>
           </h3>
           <div className=" flex flex-col md:flex-row gap-2">
-            <span className="font-bold ">from May 2024 </span>
-            <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
+            <span className="font-bold ">Terrible Ideas Hackathon</span>
           </div>
 
           <div className="mt-2 mb-2">
@@ -46,18 +53,17 @@ const ProjectsH = () => (
         </div>
       </div>
       <div className="mt-2">
-        <span className="underline text-base">What I'm Learning ✏️ </span>
+        <span className="underline text-base">✨ Theme: True && Ink </span>
         <div>
-          ✔️ Integrated Auth0 and JWT for authentication, expanding my
-          understanding of secure user authentication.<br></br>
-          ✔️ Improved my design skills to create more professional and
-          user-friendly interfaces.<br></br>
-          ✔️ Continued to broaden my tech stack and enhance my ability to manage
-          a project
+          Just like in real life where you rarely look back at notes once you've
+          written them down, notes vanishing like disappearing ink? But here’s
+          the twist: enter the correct password, and you get to see the whole
+          note again, just for a moment. It’s all about playing with the theme
+          of ‘ink’ and ‘true’!
         </div>
       </div>
     </div>
   </div>
 )
 
-export default ProjectsH
+export default ProjectsE

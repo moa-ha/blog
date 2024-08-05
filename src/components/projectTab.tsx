@@ -2,23 +2,23 @@ import React, { useState } from 'react'
 import '../styles/tabs.css'
 import Projects from './projects'
 import ProjectsC from './projectsC'
-import ProjectsH from './ProjectsH'
+import ProjectsE from './ProjectsE'
 
 const ProjectTabs = () => {
   const [activeTab, setActiveTab] = useState(0)
 
   const panes = [
     {
-      menuItem: 'Ongoing Projects',
+      menuItem: 'Ongoing',
       content: <Projects />,
     },
     {
-      menuItem: 'Completed Projects',
+      menuItem: 'Completed',
       content: <ProjectsC />,
     },
     {
-      menuItem: 'Hackathon Projects',
-      content: <ProjectsH />,
+      menuItem: 'Event-Based',
+      content: <ProjectsE />,
     },
   ]
 
