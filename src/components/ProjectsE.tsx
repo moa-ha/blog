@@ -58,6 +58,41 @@ const ProjectsE = () => (
           className="wireframe"
           width={180}
           height={200}
+          src="/images/NativeNexus.gif"
+          alt="Ctrl + F"
+        />
+        <div className="md:ml-2">
+          <h3 className="project-header">Native Nexus</h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">
+              @AI for the Environment Hackathon{' '}
+            </span>
+          </div>
+          <div className="mt-2">
+            <span className="underline text-base">
+              ✨ kaitiakitanga: embracing our connection to the land and
+              surrounding natural environment fulfilling our roles as custodians
+            </span>
+            <div>
+              AI to recommend the best native plants, focusing on environmental
+              sustainability and practical application in landscape architecture
+              projects. By using the RAG (Retrieval-Augmented Generation)
+              technique - data from Manaaki Whenua and inputs from architects
+              and engineers - it provides tailored recommendations that align
+              with both the environmental conditions and project
+              requirements(ex. low-maintenance plant for challenging areas like
+              busy motorway roadsides).
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="project text-sm">
+      <div className="project-content">
+        <Image
+          className="wireframe"
+          width={180}
+          height={200}
           src="/images/CtrlF.gif"
           alt="Ctrl + F"
         />
@@ -71,7 +106,7 @@ const ProjectsE = () => (
               ✨ Use case: Marketing Knowledge Base Chat/Search Bot{' '}
             </span>
             <div>
-              "Spending too much time searching for internal information?" The
+              Spending too much time searching for internal information?" The
               answer is the 'Ctrl+F bot.' This AI chatbot is designed to quickly
               provide information like social media guidelines. Key features
               include instant answers, easy navigation, a user-friendly
