@@ -9,16 +9,16 @@ const ProjectTabs = () => {
 
   const panes = [
     {
-      menuItem: 'Ongoing',
-      content: <Projects />,
-    },
-    {
       menuItem: 'Completed',
       content: <ProjectsC />,
     },
     {
       menuItem: 'Event-Based',
       content: <ProjectsE />,
+    },
+    {
+      menuItem: 'Ongoing',
+      content: <Projects />,
     },
   ]
 
