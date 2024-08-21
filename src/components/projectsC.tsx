@@ -42,12 +42,10 @@ const ProjectsC = () => (
             </p>
             <p>
               An app that tracks car maintenance status and calculates upcoming
-              maintenance schedules based on individual driving distances,
-              sending alerts accordingly.
+              maintenance schedules based on individual driving distances.
             </p>
             <p className="italic">
-              (React / TypeScript / CSS / Restful APIs / Node.js / Express.js /
-              SQLite3 / Drizzle)
+              (React / TypeScript / Restful APIs / Node.js)
             </p>
           </div>
         </div>
