@@ -15,7 +15,7 @@ const ProjectsC = () => (
           className="wireframe"
           width={200}
           height={200}
-          src="/images/carGp.png"
+          src="/images/car-gp.gif"
           alt="car-gp"
         />
         <div className="md:ml-2">
@@ -44,6 +44,10 @@ const ProjectsC = () => (
               An app that tracks car maintenance status and calculates upcoming
               maintenance schedules based on individual driving distances,
               sending alerts accordingly.
+            </p>
+            <p className="italic">
+              (React / TypeScript / CSS / Restful APIs / Node.js / Express.js /
+              SQLite3 / Drizzle)
             </p>
           </div>
         </div>
