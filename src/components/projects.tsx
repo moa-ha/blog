@@ -29,7 +29,7 @@ const Projects = () => (
             </Link>
           </h3>
           <div className=" flex flex-col md:flex-row gap-2">
-            <span className="font-bold ">from May 2024 </span>
+            {/* <span className="font-bold ">from May 2024 </span> */}
             <span className="text-gray-600">-UNDER CONSTRUCTION-</span>
           </div>
 

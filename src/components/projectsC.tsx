@@ -33,7 +33,7 @@ const ProjectsC = () => (
             </Link>
           </h3>
           <div className=" flex flex-col md:flex-row gap-2">
-            <span className="font-bold ">from May 2024 </span>
+            <span className="font-bold ">August 2024 </span>
           </div>
 
           <div className="mt-2 mb-2">
