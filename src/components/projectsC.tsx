@@ -69,6 +69,67 @@ const ProjectsC = () => (
           className="wireframe"
           width={200}
           height={200}
+          src="/images/LyricSync.gif"
+          alt="LyricSync"
+        />
+        <div className="md:ml-2">
+          <h3 className="project-header">
+            LyricSync
+            <Link
+              href="https://github.com/moa-ha/LyricSync"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+            <Link
+              href="https://lyricsync.up.railway.app/"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faCirclePlay} className="links" />
+            </Link>
+          </h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">August 2024 </span>
+          </div>
+
+          <div className="mt-2 mb-2">
+            <p className="text-base">
+              App for lyrics collection in translated language.
+            </p>
+            <p>
+              A full-stack application which allows its user to save the lyrics
+              to their favourite songs. Collections can be created where a set
+              of songs can be compiled and saved. Additionally, the translation
+              to foreign songs can either be executed through the translation
+              feature in the app, or inputted manually.
+            </p>
+            <p className="italic">
+              (React / TypeScript / Restful APIs / Node.js / Drizzle)
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">What I Learned ✏️</span>
+        <div>
+          ✔️ Collaborating weekly with a teammate to develop a full-stack app,
+          gaining deeper familiarity with previously used tools.<br></br>
+          ✔️ Continuously learning and integrating new features, such as unit
+          testing, which I hadn't focused on before.<br></br>
+          ✔️ Enhancing my skills in teamwork, problem-solving, and iterative
+          development.
+        </div>
+      </div>
+    </div>
+
+    <div className="project text-sm">
+      <div className="project-content">
+        <Image
+          className="wireframe"
+          width={200}
+          height={200}
           src="/images/tradie-tracker.gif"
           alt="tradie-tracker"
         />

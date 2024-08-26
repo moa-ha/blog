@@ -16,10 +16,10 @@ const ProjectTabs = () => {
       menuItem: 'Event-Based',
       content: <ProjectsE />,
     },
-    {
-      menuItem: 'Ongoing',
-      content: <Projects />,
-    },
+    // {
+    //   menuItem: 'Ongoing',
+    //   content: <Projects />,
+    // },
   ]
 
   return (
