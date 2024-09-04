@@ -34,12 +34,19 @@ export default function About() {
         <h1 className="text-xl">Moa Ha</h1>
         <div className="mb-4 mt-2">
           <p>
-            I am a developer with experience in office work and customer
-            service. Realising the increasing automation of many systems and the
-            constant evolution in this field, I chose to pursue a career in
-            software development. I believe that by actively engaging in the
-            field responsible for driving these changes, I can remain relevant
-            and continuously evolve throughout my career.
+            I am a full stack developer with a passion for learning and
+            delivering high-quality work. A quick learner and dedicated
+            performer, I excel in meeting deadlines and achieving targets. My
+            strong collaboration skills and experience as a team player, coupled
+            with a proven ability to take initiative, make me a valuable asset
+            to a development team.
+            <br />
+            <br />I chose this career because I saw many of my daily tasks being
+            automated and replaced by software. This made me realise I wanted to
+            be someone who creates these solutions. I find it incredibly
+            exciting to contribute to projects where my work directly impacts
+            real users and can be seen on live websites. I love the opportunity
+            to solve problems and see the results in action.
           </p>
           <TechStack />
         </div>
