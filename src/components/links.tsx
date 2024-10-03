@@ -34,7 +34,7 @@ export default function Links() {
 
       <Tippy content={<span>Check My CV</span>}>
         <Link
-          href="https://drive.google.com/file/d/1mz6amRLiYqstdEg_oH6bcDYcUtOiHYE_/view?usp=sharing"
+          href="https://drive.google.com/file/d/1kiQgqI6Q2l1B3GP5fBAUTr6s92mDLlo2/view?usp=sharing"
           target="_blank"
           passHref
         >
