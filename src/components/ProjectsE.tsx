@@ -118,6 +118,48 @@ const ProjectsE = () => (
         </div>
       </div>
     </div>
+    <div className="project text-sm">
+      <div className="project-content">
+        <Image
+          className="wireframe"
+          width={200}
+          height={200}
+          src="/images/AI-dreamweavers.gif"
+          alt="AI-dreamweavers"
+        />
+        <div className="md:ml-2">
+          <h3 className="project-header">
+            AI-Dreamweavers
+            <Link
+              href="https://github.com/moa-ha/ai-dreamweavers"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+          </h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">
+              @GenAI Hackathon: Sustainable Impact{' '}
+            </span>
+          </div>
+          <div className="mt-2">
+            <span className="underline text-base">
+              ✨ Gamifying Agricultural Carbon Reduction: An AI-Driven Solution
+              for Sustainable Dairy Farming{' '}
+            </span>
+            <div>
+              To tackle this challenge, we developed a chatbot (a friend of
+              farmers!) that interacts with PDF files and provides tailored
+              advice, using services like Amazon Bedrock, Amazon Lambda, and
+              Amazon S3. Bedrock’s AI capabilities helped us provide
+              personalized, interactive feedback that aligns with each farmer’s
+              unique needs.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 )
 
