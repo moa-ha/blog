@@ -56,6 +56,52 @@ const ProjectsE = () => (
       <div className="project-content">
         <Image
           className="wireframe"
+          width={200}
+          height={200}
+          src="/images/chocolate-map.gif"
+          alt="Realistic Notes"
+        />
+        <div className="md:ml-2">
+          <h3 className="project-header">
+            Chocolate Map
+            <Link
+              href="https://github.com/phm-2024/chocolate-map"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faGithub} className="links" />
+            </Link>
+            <Link
+              href="https://chocolate-map.vercel.app/"
+              target="_blank"
+              passHref
+            >
+              <FontAwesomeIcon icon={faCirclePlay} className="links" />
+            </Link>
+          </h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">
+              @with Dev Academy friends for fun
+            </span>
+          </div>
+          <div className="mt-2">
+            <span className="underline text-base">
+              ✨ Theme: Chocolate && Map{' '}
+            </span>
+            <div>
+              App that displays chocolate production locations around the world
+              on a map. My role was to create the data and develop the search
+              feature. Users can explore different regions and learn more about
+              the types of chocolate produced in each area.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="project text-sm">
+      <div className="project-content">
+        <Image
+          className="wireframe"
           width={180}
           height={200}
           src="/images/NativeNexus.gif"
