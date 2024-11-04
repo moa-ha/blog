@@ -39,7 +39,7 @@ const Menu = ({ darkMode }: Prop) => {
               </li>
               <li className="menu-link">
                 <Link
-                  href="https://drive.google.com/file/d/14a3HzApa0AURDTD6W0D4o7cG3mayQJgB/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1zZxiJNxOtu5fbCD_N4qg3Lg5N4gF0RYb/view?usp=sharing"
                   target="_blank"
                 >
                   CV
