@@ -15,6 +15,54 @@ const ProjectsC = () => (
           className="wireframe"
           width={200}
           height={200}
+          src="/images/forest-group.gif"
+          alt="forest-group"
+        />
+        <div className="md:ml-2">
+          <h3 className="project-header">
+            Forest Group UI Enhancement
+            <Link href="https://forestgroup.co.nz/" target="_blank" passHref>
+              <FontAwesomeIcon icon={faCirclePlay} className="links" />
+            </Link>
+          </h3>
+          <div className=" flex flex-col md:flex-row gap-2">
+            <span className="font-bold ">October 2024 </span>
+          </div>
+
+          <div className="mt-2 mb-2">
+            <p className="text-base">
+              Visual and UX improvements for a more polished look (Casual)
+            </p>
+            <p>
+              I was responsible for frontend improvements based on client
+              feedback. I not only addressed specific requests but also took
+              initiative to enhance additional design and usability aspects. The
+              client was pleased with all updates, and the improvements are now
+              live on the website.
+            </p>
+            <p className="italic">(React / Javascript / Tailwind)</p>
+          </div>
+        </div>
+      </div>
+      <div className="mt-2">
+        <span className="underline text-base">UI Updates & Fixes 💡</span>
+        <div>
+          ✔️ Improved logo visibility by adjusting background and contrast in
+          the navbar Replaced placeholder map with an elegant, professional
+          design <br></br>
+          ✔️ Enhanced layout of the about page to create a balanced, polished
+          look<br></br>
+          ✔️ Fixed hover issues and text alignment on mobile screens<br></br>
+          ✔️ Adjusted font styles for better readability across the site
+        </div>
+      </div>
+    </div>
+    <div className="project text-sm">
+      <div className="project-content">
+        <Image
+          className="wireframe"
+          width={200}
+          height={200}
           src="/images/car-gp.gif"
           alt="car-gp"
         />
